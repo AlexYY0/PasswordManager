@@ -1,0 +1,1004 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c0b0faec-2b65-4d0e-b745-a91fa98ae9a2" name="Default Changelist" comment="PasswordManager">
+      <change afterPath="$PROJECT_DIR$/.idea/PM.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MySqlAccount.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-dbcp-1.4.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-dbutils-1.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/commons-pool-1.5.6.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.37-bin.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/slf4j-api-1.7.21.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/Client.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/JTextFieldLimit/JTextFieldLimit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/META-INF/PM.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/command/About.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/command/AboutCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/command/CommandControl.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/command/Delete.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/command/DeleteCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/command/Edit$confirmListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/command/Edit.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/command/EditCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/command/ICommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/command/NewCommand.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/command/NewOne$confirmListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/command/NewOne.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/encrypt/BasicEncryptMachine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/encrypt/EncryptMachine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/encrypt/OLEncryptMachine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/encrypt/OuterLayerEncryptMachine.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/findPasswordWindow/FindPasswordWindow$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/findPasswordWindow/FindPasswordWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/login/Login$changePasswordButtonListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/login/Login$loginDialog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/login/Login$qaButtonListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/login/Login.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/login/PWlogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/login/QAlogin.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/login/UserService.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/login/UserServiceFactory.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/login/changePasswordDialog$confirmListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/login/changePasswordDialog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/login/qaButtonDialog$qaconfirmListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/login/qaButtonDialog.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/mainWindow/MainWindow$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/mainWindow/MainWindow$aboutMenuListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/mainWindow/MainWindow$deleteMenuListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/mainWindow/MainWindow$editMenuListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/mainWindow/MainWindow$newMenuListener.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/mainWindow/MainWindow.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/utils/AESUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/utils/JDBCUtils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/out/production/PM/utils/Pbkdf2Sha256Utils.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/JTextFieldLimit/JTextFieldLimit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/About.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/AboutCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/CommandControl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Delete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/DeleteCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/Edit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/EditCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/ICommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/NewCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/command/NewOne.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/encrypt/BasicEncryptMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/encrypt/EncryptMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/encrypt/OLEncryptMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/encrypt/OuterLayerEncryptMachine.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/findPasswordWindow/FindPasswordWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/login/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/login/PWlogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/login/QAlogin.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/login/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/login/UserServiceFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/mainWindow/MainWindow.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/AESUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/JDBCUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/Pbkdf2Sha256Utils.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/mainWindow/MainWindow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="261">
+              <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="method#init#0;class#MainWindow#0" />
+                <element signature="class#aboutMenuListener#0;class#MainWindow#0" />
+                <element signature="class#newMenuListener#0;class#MainWindow#0" />
+                <element signature="class#editMenuListener#0;class#MainWindow#0" />
+                <element signature="class#deleteMenuListener#0;class#MainWindow#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/command/NewOne.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="114">
+              <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+              <folding>
+                <element signature="method#doit#0;class#NewOne#0" />
+                <element signature="class#confirmListener#0;class#NewOne#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/login/Login.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+              <folding>
+                <element signature="method#init#0;class#Login#0" />
+                <element signature="class#changePasswordButtonListener#0;class#Login#0" />
+                <element signature="class#loginDialog#0;class#Login#0" />
+                <element signature="class#qaButtonListener#0;class#Login#0" />
+                <element signature="class#qaButtonDialog#0" />
+                <element signature="method#init#0;class#qaButtonDialog#0" />
+                <element signature="class#changePasswordDialog#0" />
+                <element signature="class#confirmListener#0;class#changePasswordDialog#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/JTextFieldLimit/JTextFieldLimit.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="431">
+              <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>1234</find>
+      <find>blank</find>
+      <find>databaseDataID</find>
+      <find>toArray</find>
+      <find>static</find>
+      <find>website</find>
+      <find>Enc</find>
+      <find>Basic</find>
+      <find>be</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/MySqlAccount.properties" />
+        <option value="$PROJECT_DIR$/src/JDBCUtils.java" />
+        <option value="$PROJECT_DIR$/src/Login.java" />
+        <option value="$PROJECT_DIR$/src/MainWindow.java" />
+        <option value="$PROJECT_DIR$/src/Utils/JDBCUtils.java" />
+        <option value="$PROJECT_DIR$/src/Login/Login.java" />
+        <option value="$PROJECT_DIR$/src/MainWindow/MainWindow.java" />
+        <option value="$PROJECT_DIR$/src/utils/JDBCUtils.java" />
+        <option value="$PROJECT_DIR$/src/mainWindow/listener/aboutMenuListener.java" />
+        <option value="$PROJECT_DIR$/src/mainWindow/NewItemDialog.java" />
+        <option value="$PROJECT_DIR$/src/mainWindow/listener/confirmListener.java" />
+        <option value="$PROJECT_DIR$/src/mainWindow/EditItemDialog.java" />
+        <option value="$PROJECT_DIR$/src/mainWindow/listener/editMenuListener.java" />
+        <option value="$PROJECT_DIR$/src/mainWindow/listener/newMenuListener.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/login/UserServiceFactory.java" />
+        <option value="$PROJECT_DIR$/src/Client.java" />
+        <option value="$PROJECT_DIR$/src/encrypt/EncryptMachine.java" />
+        <option value="$PROJECT_DIR$/src/utils/Pbkdf2Sha256Utils.java" />
+        <option value="$PROJECT_DIR$/src/encrypt/BasicEncryptMachine.java" />
+        <option value="$PROJECT_DIR$/src/encrypt/OLEncryptMachine.java" />
+        <option value="$PROJECT_DIR$/src/login/PWlogin.java" />
+        <option value="$PROJECT_DIR$/src/utils/AESUtils.java" />
+        <option value="$PROJECT_DIR$/src/utils/TestCode.java" />
+        <option value="$PROJECT_DIR$/src/command/ICommand.java" />
+        <option value="$PROJECT_DIR$/src/command/AboutCommand.java" />
+        <option value="$PROJECT_DIR$/src/command/NewCommand.java" />
+        <option value="$PROJECT_DIR$/src/command/EditCommand.java" />
+        <option value="$PROJECT_DIR$/src/command/DeleteCommand.java" />
+        <option value="$PROJECT_DIR$/src/command/Edit.java" />
+        <option value="$PROJECT_DIR$/src/command/Delete.java" />
+        <option value="$PROJECT_DIR$/src/command/NewOne.java" />
+        <option value="$PROJECT_DIR$/src/login/QAlogin.java" />
+        <option value="$PROJECT_DIR$/src/mainWindow/MainWindow.java" />
+        <option value="$PROJECT_DIR$/src/findPasswordWindow/FindPasswordWindow.java" />
+        <option value="$PROJECT_DIR$/src/login/UserService.java" />
+        <option value="$PROJECT_DIR$/src/encrypt/OuterLayerEncryptMachine.java" />
+        <option value="$PROJECT_DIR$/src/command/About.java" />
+        <option value="$PROJECT_DIR$/src/command/CommandControl.java" />
+        <option value="$PROJECT_DIR$/src/login/Login.java" />
+        <option value="$PROJECT_DIR$/src/JTextFieldLimit/JTextFieldLimit.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="95" />
+    <option name="y" value="95" />
+    <option name="width" value="1600" />
+    <option name="height" value="710" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="PM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="D:/AndroidIDE" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Application.Client">
+    <configuration name="Client" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Client" />
+      <module name="PM" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="utils.TestCode" />
+      <module name="PM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="utils.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Client" />
+        <item itemvalue="Application.TestCode" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0b0faec-2b65-4d0e-b745-a91fa98ae9a2" name="Default Changelist" comment="" />
+      <created>1560921636756</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1560921636756</updated>
+      <workItem from="1560921638113" duration="9376000" />
+      <workItem from="1560934759117" duration="16524000" />
+      <workItem from="1560989385005" duration="6638000" />
+      <workItem from="1561286930920" duration="691000" />
+      <workItem from="1561295811561" duration="17784000" />
+      <workItem from="1561345599931" duration="19750000" />
+      <workItem from="1561367146856" duration="6829000" />
+      <workItem from="1561393705770" duration="7003000" />
+      <workItem from="1561400863281" duration="44000" />
+      <workItem from="1561546418626" duration="21681000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="106320000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49934897" weight="0.32921812" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50065106" side_tool="true" weight="0.32921812" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3282967" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="PasswordManager" />
+    <option name="LAST_COMMIT_MESSAGE" value="PasswordManager" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$PROJECT_DIR$/lib/commons-pool-1.5.6.jar!/org/apache/commons/pool/impl/GenericObjectPool.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="438" selection-start-line="438" selection-end-line="438" />
+          <folding>
+            <element signature="e#30842#30843#0" expanded="true" />
+            <element signature="e#30889#30890#0" expanded="true" />
+            <element signature="e#30951#30952#0" expanded="true" />
+            <element signature="e#30992#30993#0" expanded="true" />
+            <element signature="e#31063#31064#0" expanded="true" />
+            <element signature="e#31104#31105#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/commons-dbcp-1.4.jar!/org/apache/commons/dbcp/AbandonedTrace.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#1351#1352#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/commons-dbcp-1.4.jar!/org/apache/commons/dbcp/BasicDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="380" selection-start-line="380" selection-end-line="380" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/commons-dbcp-1.4.jar!/org/apache/commons/dbcp/PoolingDataSource.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="232" selection-start-line="232" selection-end-line="232" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/commons-dbcp-1.4.jar!/org/apache/commons/dbcp/DelegatingConnection.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="170" selection-start-line="170" selection-end-line="170" />
+          <folding>
+            <element signature="e#1066#1067#0" expanded="true" />
+            <element signature="e#1096#1097#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.37-bin.jar!/com/mysql/jdbc/EscapeProcessor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.37-bin.jar!/com/mysql/jdbc/JDBC42PreparedStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.37-bin.jar!/com/mysql/jdbc/JDBC4PreparedStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.37-bin.jar!/com/mysql/jdbc/ConnectionPropertiesImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="985" selection-start-line="985" selection-end-line="985" />
+          <folding>
+            <element signature="e#78111#78112#0" expanded="true" />
+            <element signature="e#78174#78175#0" expanded="true" />
+            <element signature="e#78556#78557#0" expanded="true" />
+            <element signature="e#78635#78636#0" expanded="true" />
+            <element signature="e#79932#79933#0" expanded="true" />
+            <element signature="e#80000#80001#0" expanded="true" />
+            <element signature="e#80164#80165#0" expanded="true" />
+            <element signature="e#80224#80225#0" expanded="true" />
+            <element signature="e#80274#80275#0" expanded="true" />
+            <element signature="e#80344#80345#0" expanded="true" />
+            <element signature="e#81187#81188#0" expanded="true" />
+            <element signature="e#81240#81241#0" expanded="true" />
+            <element signature="e#82733#82734#0" expanded="true" />
+            <element signature="e#82795#82796#0" expanded="true" />
+            <element signature="e#83121#83122#0" expanded="true" />
+            <element signature="e#83161#83162#0" expanded="true" />
+            <element signature="e#83865#83866#0" expanded="true" />
+            <element signature="e#83921#83922#0" expanded="true" />
+            <element signature="e#84231#84232#0" expanded="true" />
+            <element signature="e#84278#84279#0" expanded="true" />
+            <element signature="e#87143#87144#0" expanded="true" />
+            <element signature="e#88413#88414#0" expanded="true" />
+            <element signature="e#88460#88461#0" expanded="true" />
+            <element signature="e#88503#88504#0" expanded="true" />
+            <element signature="e#88555#88556#0" expanded="true" />
+            <element signature="e#124683#124684#0" expanded="true" />
+            <element signature="e#124752#124753#0" expanded="true" />
+            <element signature="e#124916#124917#0" expanded="true" />
+            <element signature="e#124985#124986#0" expanded="true" />
+            <element signature="e#128602#128603#0" expanded="true" />
+            <element signature="e#128662#128663#0" expanded="true" />
+            <element signature="e#137621#137622#0" expanded="true" />
+            <element signature="e#137691#137692#0" expanded="true" />
+            <element signature="e#147806#147807#0" expanded="true" />
+            <element signature="e#147864#147865#0" expanded="true" />
+            <element signature="e#151658#151659#0" expanded="true" />
+            <element signature="e#151707#151708#0" expanded="true" />
+            <element signature="e#156367#156368#0" expanded="true" />
+            <element signature="e#156425#156426#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.37-bin.jar!/com/mysql/jdbc/JDBC4DatabaseMetaData.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#364#365#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.37-bin.jar!/com/mysql/jdbc/Util.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="258" selection-start-line="258" selection-end-line="258" />
+          <folding>
+            <element signature="e#1392#1393#0" expanded="true" />
+            <element signature="e#1422#1423#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.37-bin.jar!/com/mysql/jdbc/MysqlIO.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="1968" selection-start-line="1968" selection-end-line="1968" />
+          <folding>
+            <element signature="e#30520#30521#0" expanded="true" />
+            <element signature="e#30556#30557#0" expanded="true" />
+            <element signature="e#30597#30598#0" expanded="true" />
+            <element signature="e#30643#30644#0" expanded="true" />
+            <element signature="e#30684#30685#0" expanded="true" />
+            <element signature="e#30730#30731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.37-bin.jar!/com/mysql/jdbc/DatabaseMetaData.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="1521" selection-start-line="1521" selection-end-line="1521" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.37-bin.jar!/com/mysql/jdbc/ConnectionImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="2436" selection-start-line="2436" selection-end-line="2436" />
+          <folding>
+            <element signature="e#7798#7799#0" expanded="true" />
+            <element signature="e#7878#7879#0" expanded="true" />
+            <element signature="e#8039#8040#0" expanded="true" />
+            <element signature="e#8077#8078#0" expanded="true" />
+            <element signature="e#8119#8120#0" expanded="true" />
+            <element signature="e#8188#8189#0" expanded="true" />
+            <element signature="e#84606#84607#0" expanded="true" />
+            <element signature="e#84646#84647#0" expanded="true" />
+            <element signature="e#104666#104667#0" expanded="true" />
+            <element signature="e#104702#104703#0" expanded="true" />
+            <element signature="e#105157#105158#0" expanded="true" />
+            <element signature="e#158679#158680#0" expanded="true" />
+            <element signature="e#158727#158728#0" expanded="true" />
+            <element signature="e#163177#163178#0" expanded="true" />
+            <element signature="e#163225#163226#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.37-bin.jar!/com/mysql/jdbc/StringUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="973" selection-start-line="973" selection-end-line="973" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.37-bin.jar!/com/mysql/jdbc/StatementImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="1608" selection-start-line="1608" selection-end-line="1608" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.37-bin.jar!/com/mysql/jdbc/PreparedStatement.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="139">
+          <caret line="3321" selection-start-line="3321" selection-end-line="3321" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/TestCode.java" />
+    <entry file="jar://D:/Java/lib/src.zip!/java.base/java/util/Vector.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="761" column="35" selection-start-line="761" selection-start-column="27" selection-end-line="761" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/lib/src.zip!/java.desktop/javax/swing/JDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="271" column="11" selection-start-line="271" selection-start-column="11" selection-end-line="271" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/commons-dbutils-1.6.jar!/org/apache/commons/dbutils/AbstractQueryRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#995#996#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/lib/src.zip!/java.base/java/lang/Object.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="49" selection-start-line="49" selection-end-line="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/AESUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="62" column="35" selection-start-line="62" selection-start-column="35" selection-end-line="62" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/lib/src.zip!/java.desktop/javax/swing/WindowConstants.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="82" column="28" selection-start-line="82" selection-start-column="28" selection-end-line="82" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/findPasswordWindow/FindPasswordWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1097">
+          <caret line="64" column="66" selection-start-line="64" selection-start-column="66" selection-end-line="64" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2182#2183#0" expanded="true" />
+            <element signature="e#2205#2206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/QAlogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/encrypt/BasicEncryptMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="18" lean-forward="true" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/encrypt/EncryptMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/encrypt/OuterLayerEncryptMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/encrypt/OLEncryptMachine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="19" column="71" lean-forward="true" selection-start-line="19" selection-start-column="71" selection-end-line="19" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/command/EditCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="33" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="33" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/command/DeleteCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="e#194#195#0" expanded="true" />
+            <element signature="e#223#224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/command/NewCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="16" selection-end-line="7" selection-end-column="25" />
+          <folding>
+            <element signature="e#188#189#0" expanded="true" />
+            <element signature="e#217#218#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/command/Edit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="117" lean-forward="true" selection-start-line="117" selection-end-line="117" />
+          <folding>
+            <element signature="method#doit#0;class#Edit#0" />
+            <element signature="class#confirmListener#0;class#Edit#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/command/Delete.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="15" column="21" lean-forward="true" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding>
+            <element signature="method#doit#0;class#Delete#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/command/AboutCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <element signature="e#127#128#0" expanded="true" />
+            <element signature="e#159#160#0" expanded="true" />
+            <element signature="e#186#187#0" expanded="true" />
+            <element signature="e#214#215#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/command/CommandControl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/command/About.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="27" column="1" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding>
+            <element signature="method#doit#0;class#About#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/lib/src.zip!/java.desktop/javax/swing/JPasswordField.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="104" column="11" selection-start-line="104" selection-start-column="11" selection-end-line="104" selection-end-column="11" />
+          <folding>
+            <element signature="e#3243#3244#0" expanded="true" />
+            <element signature="e#3284#3285#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/lib/commons-dbutils-1.6.jar!/org/apache/commons/dbutils/QueryRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+          <folding>
+            <element signature="e#532#533#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/utils/JDBCUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="e#627#811#0" />
+            <element signature="e#1820#2409#0" />
+            <element signature="e#3048#3049#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/PWlogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/lib/src.zip!/java.desktop/javax/swing/text/AbstractDocument.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="1512" column="20" selection-start-line="1512" selection-start-column="20" selection-end-line="1512" selection-end-column="20" />
+          <folding>
+            <element signature="e#16316#16317#0" expanded="true" />
+            <element signature="e#16356#16357#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/command/NewOne.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <folding>
+            <element signature="method#doit#0;class#NewOne#0" />
+            <element signature="class#confirmListener#0;class#NewOne#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/mainWindow/MainWindow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#init#0;class#MainWindow#0" />
+            <element signature="class#aboutMenuListener#0;class#MainWindow#0" />
+            <element signature="class#newMenuListener#0;class#MainWindow#0" />
+            <element signature="class#editMenuListener#0;class#MainWindow#0" />
+            <element signature="class#deleteMenuListener#0;class#MainWindow#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/Login.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+          <folding>
+            <element signature="method#init#0;class#Login#0" />
+            <element signature="class#changePasswordButtonListener#0;class#Login#0" />
+            <element signature="class#loginDialog#0;class#Login#0" />
+            <element signature="class#qaButtonListener#0;class#Login#0" />
+            <element signature="class#qaButtonDialog#0" />
+            <element signature="method#init#0;class#qaButtonDialog#0" />
+            <element signature="class#changePasswordDialog#0" />
+            <element signature="class#confirmListener#0;class#changePasswordDialog#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/command/ICommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/UserServiceFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+          <folding>
+            <element signature="e#91#92#0" expanded="true" />
+            <element signature="e#127#128#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JTextFieldLimit/JTextFieldLimit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="431">
+          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>10</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>PM</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>Android API 28 Platform</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
