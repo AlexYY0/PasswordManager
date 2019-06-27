@@ -16,7 +16,7 @@ import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
 
-import JTextFieldLimit.JTextFieldLimit;
+import JTextFieldLimit.PasswordLimit;
 import encrypt.BasicEncryptMachine;
 import encrypt.EncryptMachine;
 import encrypt.OLEncryptMachine;
@@ -37,7 +37,7 @@ public class Login{
 	JPasswordField passwordText = new JPasswordField(20);
 	//初始化界面
 		public void init() {
-			passwordText.setDocument(new JTextFieldLimit(11));
+			passwordText.setDocument(new PasswordLimit(11));
 			String sql = null;
 			QueryRunner queryRunner = new QueryRunner(JDBCUtils.getDataSource());
 			//查询数据库test下有没有存储密码的account表格
@@ -51,7 +51,7 @@ public class Login{
 			}
 			//count为0，表示没有account，通过queryrunner新建一个account表格
 			if (count==0) {
-				sql = "CREATE TABLE account(id INT PRIMARY KEY AUTO_INCREMENT,pwd VARCHAR(80),salt1 VARCHAR(16),salt2 VARCHAR(16),qa VARCHAR(80))";
+				sql = "CREATE TABLE account(id INT PRIMARY KEY AUTO_INCREMENT,pwd VARCHAR(192),salt1 VARCHAR(16),salt2 VARCHAR(16),qa VARCHAR(192))";
 				try {
 //					statement.executeUpdate(sql);
 					queryRunner.update(sql);
@@ -70,8 +70,8 @@ public class Login{
 			}
 			//如果不存在，新建item表格
 			if (count==0) {
-				sql = "CREATE TABLE item(id INT PRIMARY KEY AUTO_INCREMENT,website VARCHAR(170),"
-						+ "username VARCHAR(170),pwd VARCHAR(170),url VARCHAR(170))";
+				sql = "CREATE TABLE item(id INT PRIMARY KEY AUTO_INCREMENT,website VARCHAR(192),"
+						+ "username VARCHAR(192),pwd VARCHAR(192),url VARCHAR(192))";
 				try {
 //					statement.executeUpdate(sql);
 					queryRunner.update(sql);
@@ -153,8 +153,12 @@ public class Login{
 		class loginDialog implements ActionListener{
 			public void actionPerformed(ActionEvent e) {
 				//检测输入是否达标
-				UserServiceFactory uf=new UserServiceFactory();
-				UserService userService=uf.getPWUserService();
+				if (String.valueOf(passwordText.getPassword()).equals("")) {
+					JOptionPane.showMessageDialog(null, "输入不能为空！", "注意", JOptionPane.INFORMATION_MESSAGE);
+					return;
+				}
+				UserServiceFactory pw=new PWFactory();
+				UserService userService=pw.createUserService();
 				if (userService.login(String.valueOf(passwordText.getPassword()))) {
 					//若一致，关闭登陆界面，显示主界面
 					loginFrame.dispose();
@@ -202,10 +206,10 @@ class qaButtonDialog{
 	//问答式登录按钮事件响应，判断输入的答案和存储的答案一不一致
 	class qaconfirmListener implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
-			UserServiceFactory uf=new UserServiceFactory();
-			UserService userService=uf.getQAUserService();
+			UserServiceFactory qa=new QAFactory();
+			UserService userService=qa.createUserService();
 			if (userService.login(qaPassword.getText())) {
-				JOptionPane.showMessageDialog(dialog, "问答式登陆成功！");
+				JOptionPane.showMessageDialog(dialog, "问答式登录成功！");
 				dialog.dispose();
 				new FindPasswordWindow().init(qaPassword.getText());
 			}else {
@@ -222,8 +226,8 @@ class changePasswordDialog {
 	JTextField newPassWord = new JTextField(20);
 	JButton confiemButton = new JButton("确定");
 	void init() {
-		oldPassWord.setDocument(new JTextFieldLimit(11));
-		newPassWord.setDocument(new JTextFieldLimit(11));
+		oldPassWord.setDocument(new PasswordLimit(11));
+		newPassWord.setDocument(new PasswordLimit(11));
 		JPanel jPanel = new JPanel(new GridLayout(5,1,10,10));
 		dialog.setLayout(new BorderLayout(10, 10));
 		jPanel.add(new JLabel("旧密码"));
@@ -247,6 +251,10 @@ class changePasswordDialog {
 	//修改密码对话框确定按钮事件，先判断原密码与数据库中一不一致，若一致可以更改
 	class confirmListener implements ActionListener {
 		public void actionPerformed(ActionEvent e) {
+			if (oldPassWord.getText().equals("")||newPassWord.getText().equals("")) {
+				JOptionPane.showMessageDialog(null, "输入不能为空！", "注意", JOptionPane.INFORMATION_MESSAGE);
+				return;
+			}
 			QueryRunner queryRunner = new QueryRunner(JDBCUtils.getDataSource());
 			String sql = "select pwd from account where id = 1";
 			String password = null;

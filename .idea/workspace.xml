@@ -2,86 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c0b0faec-2b65-4d0e-b745-a91fa98ae9a2" name="Default Changelist" comment="PasswordManager">
-      <change afterPath="$PROJECT_DIR$/.idea/PM.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/MySqlAccount.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-dbcp-1.4.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-dbutils-1.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-pool-1.5.6.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-5.1.37-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slf4j-api-1.7.21.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/Client.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/JTextFieldLimit/JTextFieldLimit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/META-INF/PM.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/command/About.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/command/AboutCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/command/CommandControl.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/command/Delete.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/command/DeleteCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/command/Edit$confirmListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/command/Edit.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/command/EditCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/command/ICommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/command/NewCommand.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/command/NewOne$confirmListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/command/NewOne.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/encrypt/BasicEncryptMachine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/encrypt/EncryptMachine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/encrypt/OLEncryptMachine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/encrypt/OuterLayerEncryptMachine.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/findPasswordWindow/FindPasswordWindow$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/findPasswordWindow/FindPasswordWindow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/login/Login$changePasswordButtonListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/login/Login$loginDialog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/login/Login$qaButtonListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/login/Login.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/login/PWlogin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/login/QAlogin.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/login/UserService.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/login/UserServiceFactory.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/login/changePasswordDialog$confirmListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/login/changePasswordDialog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/login/qaButtonDialog$qaconfirmListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/login/qaButtonDialog.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/mainWindow/MainWindow$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/mainWindow/MainWindow$aboutMenuListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/mainWindow/MainWindow$deleteMenuListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/mainWindow/MainWindow$editMenuListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/mainWindow/MainWindow$newMenuListener.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/mainWindow/MainWindow.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/utils/AESUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/utils/JDBCUtils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/out/production/PM/utils/Pbkdf2Sha256Utils.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/JTextFieldLimit/JTextFieldLimit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/About.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/AboutCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/CommandControl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/Delete.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/DeleteCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/Edit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/EditCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/ICommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/NewCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/command/NewOne.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/encrypt/BasicEncryptMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/encrypt/EncryptMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/encrypt/OLEncryptMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/encrypt/OuterLayerEncryptMachine.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/findPasswordWindow/FindPasswordWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/login/Login.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/login/PWlogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/login/QAlogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/login/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/login/UserServiceFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/mainWindow/MainWindow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/AESUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/JDBCUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/utils/Pbkdf2Sha256Utils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/login/PWFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/login/QAFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PM/JTextFieldLimit/JTextFieldLimit.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PM/login/Login$loginDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PM/login/Login$loginDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PM/login/Login$qaButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PM/login/Login$qaButtonListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PM/login/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PM/login/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PM/login/changePasswordDialog$confirmListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PM/login/changePasswordDialog$confirmListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PM/login/changePasswordDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PM/login/changePasswordDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PM/login/qaButtonDialog$qaconfirmListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PM/login/qaButtonDialog$qaconfirmListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/PM/login/qaButtonDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PM/login/qaButtonDialog.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/JTextFieldLimit/JTextFieldLimit.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/login/UserServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/UserServiceFactory.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -95,9 +29,18 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Client.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/mainWindow/MainWindow.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="261">
+            <state relative-caret-position="79">
               <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -111,46 +54,67 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/command/NewOne.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-              <folding>
-                <element signature="method#doit#0;class#NewOne#0" />
-                <element signature="class#confirmListener#0;class#NewOne#0" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/login/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+            <state relative-caret-position="399">
+              <caret line="183" column="20" selection-start-line="183" selection-start-column="20" selection-end-line="183" selection-end-column="20" />
               <folding>
                 <element signature="method#init#0;class#Login#0" />
                 <element signature="class#changePasswordButtonListener#0;class#Login#0" />
                 <element signature="class#loginDialog#0;class#Login#0" />
+                <element signature="e#5652#5751#1" />
                 <element signature="class#qaButtonListener#0;class#Login#0" />
                 <element signature="class#qaButtonDialog#0" />
                 <element signature="method#init#0;class#qaButtonDialog#0" />
                 <element signature="class#changePasswordDialog#0" />
                 <element signature="class#confirmListener#0;class#changePasswordDialog#0" />
+                <element signature="e#8867#8979#1" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/JTextFieldLimit/JTextFieldLimit.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/login/UserServiceFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+            <state relative-caret-position="57">
+              <caret line="3" column="42" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="42" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/login/PWFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="133">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#113#114#0" expanded="true" />
+                <element signature="e#148#149#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/login/QAFactory.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="22" />
+              <folding>
+                <element signature="e#106#107#0" expanded="true" />
+                <element signature="e#141#142#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/login/UserService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
             </state>
           </provider>
         </entry>
@@ -199,7 +163,6 @@
         <option value="$PROJECT_DIR$/src/mainWindow/listener/editMenuListener.java" />
         <option value="$PROJECT_DIR$/src/mainWindow/listener/newMenuListener.java" />
         <option value="$PROJECT_DIR$/src/Main.java" />
-        <option value="$PROJECT_DIR$/src/login/UserServiceFactory.java" />
         <option value="$PROJECT_DIR$/src/Client.java" />
         <option value="$PROJECT_DIR$/src/encrypt/EncryptMachine.java" />
         <option value="$PROJECT_DIR$/src/utils/Pbkdf2Sha256Utils.java" />
@@ -223,8 +186,13 @@
         <option value="$PROJECT_DIR$/src/encrypt/OuterLayerEncryptMachine.java" />
         <option value="$PROJECT_DIR$/src/command/About.java" />
         <option value="$PROJECT_DIR$/src/command/CommandControl.java" />
-        <option value="$PROJECT_DIR$/src/login/Login.java" />
         <option value="$PROJECT_DIR$/src/JTextFieldLimit/JTextFieldLimit.java" />
+        <option value="$PROJECT_DIR$/src/JTextFieldLimit/PasswordLimit.java" />
+        <option value="$PROJECT_DIR$/src/JTextFieldLimit/TextLimit.java" />
+        <option value="$PROJECT_DIR$/src/login/UserServiceFactory.java" />
+        <option value="$PROJECT_DIR$/src/login/PWFactory.java" />
+        <option value="$PROJECT_DIR$/src/login/QAFactory.java" />
+        <option value="$PROJECT_DIR$/src/login/Login.java" />
       </list>
     </option>
   </component>
@@ -253,6 +221,12 @@
               <item name="PM" type="b2602c69:ProjectViewProjectNode" />
               <item name="PM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -335,18 +309,26 @@
       <workItem from="1561367146856" duration="6829000" />
       <workItem from="1561393705770" duration="7003000" />
       <workItem from="1561400863281" duration="44000" />
-      <workItem from="1561546418626" duration="21681000" />
+      <workItem from="1561546418626" duration="37990000" />
     </task>
+    <task id="LOCAL-00001" summary="PasswordManager">
+      <created>1561625268162</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561625268162</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="106320000" />
+    <option name="totallyTimeSpent" value="122629000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -355,7 +337,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32921812" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49934897" weight="0.32921812" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49934897" weight="0.32692307" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39917696" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -364,7 +346,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
-      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50065106" side_tool="true" weight="0.32921812" />
+      <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50065106" side_tool="true" weight="0.32692307" />
       <window_info anchor="bottom" id="Messages" order="12" weight="0.3282967" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -385,57 +367,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="PasswordManager" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/commons-pool-1.5.6.jar!/org/apache/commons/pool/impl/GenericObjectPool.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="438" selection-start-line="438" selection-end-line="438" />
-          <folding>
-            <element signature="e#30842#30843#0" expanded="true" />
-            <element signature="e#30889#30890#0" expanded="true" />
-            <element signature="e#30951#30952#0" expanded="true" />
-            <element signature="e#30992#30993#0" expanded="true" />
-            <element signature="e#31063#31064#0" expanded="true" />
-            <element signature="e#31104#31105#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/commons-dbcp-1.4.jar!/org/apache/commons/dbcp/AbandonedTrace.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="22" selection-start-line="22" selection-end-line="22" />
-          <folding>
-            <element signature="e#1351#1352#0" expanded="true" />
-            <element signature="e#1409#1410#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/commons-dbcp-1.4.jar!/org/apache/commons/dbcp/BasicDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="380" selection-start-line="380" selection-end-line="380" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/commons-dbcp-1.4.jar!/org/apache/commons/dbcp/PoolingDataSource.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="232" selection-start-line="232" selection-end-line="232" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/lib/commons-dbcp-1.4.jar!/org/apache/commons/dbcp/DelegatingConnection.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="170" selection-start-line="170" selection-end-line="170" />
-          <folding>
-            <element signature="e#1066#1067#0" expanded="true" />
-            <element signature="e#1096#1097#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$PROJECT_DIR$/lib/mysql-connector-java-5.1.37-bin.jar!/com/mysql/jdbc/EscapeProcessor.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="177">
@@ -661,20 +592,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/UserService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Client.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/encrypt/BasicEncryptMachine.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
@@ -844,10 +761,45 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/command/ICommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Client.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/JTextFieldLimit/JTextFieldLimit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="14" column="25" lean-forward="true" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/lib/src.zip!/java.base/java/util/regex/Pattern.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1063" column="26" selection-start-line="1063" selection-start-column="26" selection-end-line="1063" selection-end-column="26" />
+          <folding>
+            <element signature="e#54666#54667#0" expanded="true" />
+            <element signature="e#54710#54711#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/command/NewOne.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <caret line="20" column="14" selection-start-line="20" selection-start-column="4" selection-end-line="20" selection-end-column="14" />
           <folding>
             <element signature="method#doit#0;class#NewOne#0" />
             <element signature="class#confirmListener#0;class#NewOne#0" />
@@ -857,7 +809,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/mainWindow/MainWindow.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
+        <state relative-caret-position="79">
           <caret line="34" column="49" selection-start-line="34" selection-start-column="49" selection-end-line="34" selection-end-column="49" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -870,47 +822,74 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/login/Login.java">
+    <entry file="file://$PROJECT_DIR$/src/JTextFieldLimit/TextLimit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
+        <state relative-caret-position="174">
+          <caret line="17" column="58" selection-start-line="17" selection-start-column="58" selection-end-line="17" selection-end-column="58" />
           <folding>
-            <element signature="method#init#0;class#Login#0" />
-            <element signature="class#changePasswordButtonListener#0;class#Login#0" />
-            <element signature="class#loginDialog#0;class#Login#0" />
-            <element signature="class#qaButtonListener#0;class#Login#0" />
-            <element signature="class#qaButtonDialog#0" />
-            <element signature="method#init#0;class#qaButtonDialog#0" />
-            <element signature="class#changePasswordDialog#0" />
-            <element signature="class#confirmListener#0;class#changePasswordDialog#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/command/ICommand.java">
+    <entry file="file://$PROJECT_DIR$/src/JTextFieldLimit/PasswordLimit.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="228">
+          <caret line="17" column="48" selection-start-line="17" selection-start-column="48" selection-end-line="17" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/QAFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="22" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="22" />
+          <folding>
+            <element signature="e#106#107#0" expanded="true" />
+            <element signature="e#141#142#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/login/PWFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#113#114#0" expanded="true" />
+            <element signature="e#148#149#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/login/UserServiceFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="57">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-          <folding>
-            <element signature="e#91#92#0" expanded="true" />
-            <element signature="e#127#128#0" expanded="true" />
-          </folding>
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/JTextFieldLimit/JTextFieldLimit.java">
+    <entry file="file://$PROJECT_DIR$/src/login/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="25" column="58" selection-start-line="25" selection-start-column="58" selection-end-line="25" selection-end-column="58" />
+        <state relative-caret-position="399">
+          <caret line="183" column="20" selection-start-line="183" selection-start-column="20" selection-end-line="183" selection-end-column="20" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="method#init#0;class#Login#0" />
+            <element signature="class#changePasswordButtonListener#0;class#Login#0" />
+            <element signature="class#loginDialog#0;class#Login#0" />
+            <element signature="e#5652#5751#1" />
+            <element signature="class#qaButtonListener#0;class#Login#0" />
+            <element signature="class#qaButtonDialog#0" />
+            <element signature="method#init#0;class#qaButtonDialog#0" />
+            <element signature="class#changePasswordDialog#0" />
+            <element signature="class#confirmListener#0;class#changePasswordDialog#0" />
+            <element signature="e#8867#8979#1" />
           </folding>
         </state>
       </provider>
