@@ -1,22 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0b0faec-2b65-4d0e-b745-a91fa98ae9a2" name="Default Changelist" comment="PasswordManager">
-      <change afterPath="$PROJECT_DIR$/src/login/PWFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/login/QAFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PM/JTextFieldLimit/JTextFieldLimit.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PM/login/Login$loginDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PM/login/Login$loginDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PM/login/Login$qaButtonListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PM/login/Login$qaButtonListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PM/login/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PM/login/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PM/login/changePasswordDialog$confirmListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PM/login/changePasswordDialog$confirmListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PM/login/changePasswordDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PM/login/changePasswordDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PM/login/qaButtonDialog$qaconfirmListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PM/login/qaButtonDialog$qaconfirmListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/PM/login/qaButtonDialog.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/PM/login/qaButtonDialog.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/JTextFieldLimit/JTextFieldLimit.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/Login.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/login/UserServiceFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/login/UserServiceFactory.java" afterDir="false" />
-    </list>
+    <list default="true" id="c0b0faec-2b65-4d0e-b745-a91fa98ae9a2" name="Default Changelist" comment="PasswordManager" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,18 +42,15 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/login/Login.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="183" column="20" selection-start-line="183" selection-start-column="20" selection-end-line="183" selection-end-column="20" />
+            <state relative-caret-position="146">
+              <caret line="326" column="41" selection-start-line="326" selection-start-column="41" selection-end-line="326" selection-end-column="41" />
               <folding>
-                <element signature="method#init#0;class#Login#0" />
                 <element signature="class#changePasswordButtonListener#0;class#Login#0" />
                 <element signature="class#loginDialog#0;class#Login#0" />
                 <element signature="e#5652#5751#1" />
                 <element signature="class#qaButtonListener#0;class#Login#0" />
                 <element signature="class#qaButtonDialog#0" />
                 <element signature="method#init#0;class#qaButtonDialog#0" />
-                <element signature="class#changePasswordDialog#0" />
-                <element signature="class#confirmListener#0;class#changePasswordDialog#0" />
                 <element signature="e#8867#8979#1" />
               </folding>
             </state>
@@ -226,6 +208,12 @@
               <item name="PM" type="b2602c69:ProjectViewProjectNode" />
               <item name="PM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="JTextFieldLimit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="login" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -309,7 +297,7 @@
       <workItem from="1561367146856" duration="6829000" />
       <workItem from="1561393705770" duration="7003000" />
       <workItem from="1561400863281" duration="44000" />
-      <workItem from="1561546418626" duration="37990000" />
+      <workItem from="1561546418626" duration="38256000" />
     </task>
     <task id="LOCAL-00001" summary="PasswordManager">
       <created>1561625268162</created>
@@ -318,15 +306,21 @@
       <option name="project" value="LOCAL" />
       <updated>1561625268162</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="PasswordManager">
+      <created>1561654274569</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561654274569</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="122629000" />
+    <option name="totallyTimeSpent" value="122895000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -347,7 +341,7 @@
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Terminal" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50065106" side_tool="true" weight="0.32692307" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.3282967" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32692307" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -877,18 +871,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/login/Login.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="183" column="20" selection-start-line="183" selection-start-column="20" selection-end-line="183" selection-end-column="20" />
+        <state relative-caret-position="146">
+          <caret line="326" column="41" selection-start-line="326" selection-start-column="41" selection-end-line="326" selection-end-column="41" />
           <folding>
-            <element signature="method#init#0;class#Login#0" />
             <element signature="class#changePasswordButtonListener#0;class#Login#0" />
             <element signature="class#loginDialog#0;class#Login#0" />
             <element signature="e#5652#5751#1" />
             <element signature="class#qaButtonListener#0;class#Login#0" />
             <element signature="class#qaButtonDialog#0" />
             <element signature="method#init#0;class#qaButtonDialog#0" />
-            <element signature="class#changePasswordDialog#0" />
-            <element signature="class#confirmListener#0;class#changePasswordDialog#0" />
             <element signature="e#8867#8979#1" />
           </folding>
         </state>
